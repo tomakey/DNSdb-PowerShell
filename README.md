@@ -11,5 +11,10 @@ To use, simply import the module:
 ```powershell
 Import-Module 'path-to\DNSdb.psm1'
 ```
+All help topics are self contained:
+
+```powershell
+help DNSdb
+```
 
 All results are returned as PowerShell custom object which means you can further transform the data as needed.
